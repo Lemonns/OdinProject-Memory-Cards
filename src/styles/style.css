@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+}
+.App {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.emperor-img {
+    width: 275px;
+    height: 90%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.emporer-card {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    height: 350px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.emporer-card h3 {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.scores {
+    font-size: 23px;
+}
+
+.header-score {
+    height: 140px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.game-board {
+    width: 98%;
+    height: 80%;
+    gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
